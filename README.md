@@ -16,7 +16,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ## Results
 
-1. RandomOverSampler
+### 1. RandomOverSampler
 
 ![random_oversampling](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/random_oversampling.png)
 
@@ -32,7 +32,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 
 
-2. SMOTE
+### 2. SMOTE
 
 ![SMOTE](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/SMOTE.png)
 
@@ -49,7 +49,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 
 
-3. ClusterCentroids
+### 3. ClusterCentroids
 
 ![ClusterCentroids](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/ClusterCentroids.png)
 
@@ -66,7 +66,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 
 
-4. SMOTEENN
+### 4. SMOTEENN
 
 ![SMOTEENN](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/SMOTEENN.png)
  
@@ -83,11 +83,11 @@ Which ML model performs best at accurately predicting credit risk?
 
 
 
-5. BalancedRandomForestClassifier
+### 5. BalancedRandomForestClassifier
 
 ![]()
 
- - Balanced Accuracy: 
+ - Balanced Accuracy Score: 
 
  - High-Risk Precision:
 
@@ -100,11 +100,11 @@ Which ML model performs best at accurately predicting credit risk?
 
 
 
-6. EasyEnsembleClassifier
+### 6. EasyEnsembleClassifier
 
 ![]()
 
- - Balanced Accuracy: 
+ - Balanced Accuracy Score: 
 
  - High-Risk Precision:
 
