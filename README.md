@@ -23,15 +23,15 @@ Using Python to evaluate multiple machine learning models to analyze credit risk
 
 ![]()
 
-- Accuracy: 
+ - Accuracy: 
 
-- Precision (High-Risk):
+ - Precision (High-Risk):
 
-- Precision (Low-Risk): 
+ - Precision (Low-Risk): 
 
-- Sensitivity (High-Risk): 
+ - Sensitivity (High-Risk): 
 
-- Sensitivity (Low-Risk): 
+ - Sensitivity (Low-Risk): 
 
 
 
@@ -87,15 +87,15 @@ Using Python to evaluate multiple machine learning models to analyze credit risk
 
 ![]()
 
--- Accuracy: 
+- Accuracy: 
 
--- Precision (High-Risk): 
+- Precision (High-Risk): 
 
--- Precision (Low-Risk): 
+- Precision (Low-Risk): 
 
--- Sensitivity (High-Risk): 
+- Sensitivity (High-Risk): 
 
--- Sensitivity (Low-Risk): 
+- Sensitivity (Low-Risk): 
 
 
 
