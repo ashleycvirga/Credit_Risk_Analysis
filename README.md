@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 
-Using Python to evaluate multiple machine learning models to analyze credit risk.
+Using Python to evaluate multiple machine learning models that predict credit risk.
 
 ## Overview
 
