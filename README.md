@@ -85,39 +85,44 @@ Which ML model performs best at accurately predicting credit risk?
 
 ### 5. BalancedRandomForestClassifier
 
-![]()
+![brf_model](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/5513433d471f71bbd9a651d206d988a2f55ea236/Resources/brf_model.png)
 
- - Balanced Accuracy Score: 
+ - Balanced Accuracy Score: 0.7877 (78.8%)
 
- - High-Risk Precision:
+ - High-Risk Precision: 0.04
 
- - Low-Risk Precision: 
+ - Low-Risk Precision: 1.00
 
- - High-Risk Recall/Sensitivity: 
+ - High-Risk Recall/Sensitivity: 0.67
 
- - Low-Risk Recall/Sensitivity: 
+ - Low-Risk Recall/Sensitivity: 0.91
 
 
 
 
 ### 6. EasyEnsembleClassifier
 
-![]()
+![eec_model](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/5513433d471f71bbd9a651d206d988a2f55ea236/Resources/eec_model.png)
 
- - Balanced Accuracy Score: 
+ - Balanced Accuracy Score: 0.925 (92.5%) !!!
 
- - High-Risk Precision:
+ - High-Risk Precision: 0.07
 
- - Low-Risk Precision: 
+ - Low-Risk Precision: 1.00
 
- - High-Risk Recall/Sensitivity: 
+ - High-Risk Recall/Sensitivity: 0.91
 
- - Low-Risk Recall/Sensitivity: 
+ - Low-Risk Recall/Sensitivity: 0.94
 
 
 
 
 ## Summary
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+Overall, the majority of the models did not have very good balanced accuracy scores. The EasyEnsembleClassifier model was able to achieve the highest balanced accuuracy score of 92.5%.  This means that the model has a 92.5% chance of correctly predicting loan_status.
 
+The precision scores for predicting 'high-risk' loan_status was incredibly low for all of the models tested.  On the contrary, the precision scores for predicting 'low-risk' loan_status was 100% for every single model.  High precision for low risk loan status means that if the test comes back positive for being low risk, there's a high likelihood that the loan status is in fact a low risk loan.  
+
+The recall/sensitivity scores were tetering in the midranges for the majority of the models.  The EasyEnsembleClassifier model shined through again though with the highest recall/sensitivity score of them all.  The EasyEnsembleClassifier model was able to predicting both high-risk and low-risk loan status with above 90% recall/sensitivity.  Luckily in this case, recall/sensitivity scores are more important than precision scores when predicting loan status. It is important to use a model wwith a strong sensitivity for predicting high-risk loans to notify lenders of all possible loans that may be high-risk, even if a small percentage of those identified as high risk may not actually be high risk loans. The alternative is that the model has a high sensitivity for predicting low risk loans.  This case would more often misidentify high risk loans as low risk and could end up costing the lender large sums of money due to default.
+
+The EasyEnsembleClassifier model seems to win out amongst the 6 models tested in this project! When predicting loan status, it is important to use a model with high sensitivity for predicting high-risk loans so that loaners can be aware of all loans that may be high-risk, even if some of them may be falsely predicted with that status.
