@@ -20,7 +20,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
- - Accuracy: 
+ - Balanced Accuracy Score: 
 
  - Precision (High-Risk):
 
@@ -36,7 +36,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Accuracy: 
+- Balanced Accuracy Score:  
 
 - Precision (High-Risk): 
 
@@ -52,7 +52,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Accuracy: 
+- Balanced Accuracy Score: 
 
 - Precision (High-Risk): 
 
@@ -68,7 +68,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Accuracy: 
+- Balanced Accuracy Score:  
 
 - Precision (High-Risk): 
 
@@ -84,7 +84,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Accuracy: 
+- Balanced Accuracy Score:  
 
 - Precision (High-Risk): 
 
@@ -100,7 +100,7 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Accuracy: 
+- Balanced Accuracy Score: 
 
 - Precision (High-Risk): 
 
