@@ -18,65 +18,68 @@ Which ML model performs best at accurately predicting credit risk?
 
 1. RandomOverSampler
 
-![]()
+![random_oversampling](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/random_oversampling.png)
 
- - Balanced Accuracy Score: 
+ - Balanced Accuracy Score: 0.657 (65.7%)
 
- - Precision (High-Risk):
+ - High-Risk Precision: 0.01
 
- - Precision (Low-Risk): 
+ - Low-Risk Precision: 1.00
 
- - Sensitivity (High-Risk): 
+ - High-Risk Recall/Sensitivity: 0.71
 
- - Sensitivity (Low-Risk): 
+ - Low-Risk Recall/Sensitivity: 0.60
 
 
 
 2. SMOTE
 
-![]()
+![SMOTE](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/SMOTE.png)
 
-- Balanced Accuracy Score:  
+ - Balanced Accuracy Score: 0.662 (66.2%)
 
-- Precision (High-Risk): 
+ - High-Risk Precision: 0.01
 
-- Precision (Low-Risk): 
+ - Low-Risk Precision: 1.00
 
-- Sensitivity (High-Risk): 
+ - High-Risk Recall/Sensitivity: 0.63
 
-- Sensitivity (Low-Risk): 
+ - Low-Risk Recall/Sensitivity: 0.69
+
 
 
 
 3. ClusterCentroids
 
-![]()
+![ClusterCentroids](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/ClusterCentroids.png)
 
-- Balanced Accuracy Score: 
+ - Balanced Accuracy Score: 0.5447 (54.5%)
 
-- Precision (High-Risk): 
+ - High-Risk Precision: 0.01
 
-- Precision (Low-Risk): 
+ - Low-Risk Precision: 1.00
 
-- Sensitivity (High-Risk): 
+ - High-Risk Recall/Sensitivity: 0.69
 
-- Sensitivity (Low-Risk): 
+ - Low-Risk Recall/Sensitivity: 0.40
+
 
 
 
 4. SMOTEENN
 
-![]()
+![SMOTEENN](https://github.com/ashleycvirga/Credit_Risk_Analysis/blob/1dc1b57c142aa3a2dfdbb218e3965869f283d91c/Resources/SMOTEENN.png)
+ 
+ - Balanced Accuracy Score: 0.6447 (64.5%)
 
-- Balanced Accuracy Score:  
+ - High-Risk Precision: 0.01
 
-- Precision (High-Risk): 
+ - Low-Risk Precision: 1.00
 
-- Precision (Low-Risk): 
+ - High-Risk Recall/Sensitivity: 0.72
 
-- Sensitivity (High-Risk): 
+ - Low-Risk Recall/Sensitivity: 0.57
 
-- Sensitivity (Low-Risk): 
 
 
 
@@ -84,15 +87,16 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Balanced Accuracy Score:  
+ - Balanced Accuracy: 
 
-- Precision (High-Risk): 
+ - High-Risk Precision:
 
-- Precision (Low-Risk): 
+ - Low-Risk Precision: 
 
-- Sensitivity (High-Risk): 
+ - High-Risk Recall/Sensitivity: 
 
-- Sensitivity (Low-Risk): 
+ - Low-Risk Recall/Sensitivity: 
+
 
 
 
@@ -100,15 +104,16 @@ Which ML model performs best at accurately predicting credit risk?
 
 ![]()
 
-- Balanced Accuracy Score: 
+ - Balanced Accuracy: 
 
-- Precision (High-Risk): 
+ - High-Risk Precision:
 
-- Precision (Low-Risk): 
+ - Low-Risk Precision: 
 
-- Sensitivity (High-Risk): 
+ - High-Risk Recall/Sensitivity: 
 
-- Sensitivity (Low-Risk): 
+ - Low-Risk Recall/Sensitivity: 
+
 
 
 
